@@ -1,7 +1,8 @@
 # muduo_Chat
 
 基于muduo网络库的多线程ChatServer服务器  
-平台工具 ：vscode远程Linux、cmake构建、Linux shell输出项目编译脚本  
+平台工具 ：vscode远程Linux、cmake构建、Linux shell输出项目编译脚本   
+
 项目内容：  
 1、使用muduo网络库实现服务端和客户端的网络功能，支持高并发网络IO服务，解耦网络和业务模块代码  
 2、使用json序列化和反序列消息 实现私有通讯协议  
@@ -11,4 +12,5 @@
 6、使用连接池提高数据库的数据存取性能  
 7、使用gdb完成对程序中的问题追踪和调试  
 
-#### 其它：待升级处：使用qt/electron进行页面化操作   
+**其它 待升级处**：  
+　　使用qt/electron进行页面化操作   
